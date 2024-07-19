@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #86777723;
+    margin: 0;
+    padding: 0;
+    background-image: url('image.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333; /* Darken the text color for better readability on light backgrounds */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px; /* Increase padding for a more spacious feel */
+    background-color: rgba(132, 106, 106, 0.164); /* Transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555; /* Dark gray text color */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and border do not increase element size */
+}
+
+button {
+    display: inline-block;
+    width: auto;
+    padding: 12px 20px;
+    background-color: #a1c2e4;
+    color: #0d0707e5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5896d9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(96, 86, 86, 0.128); /* Transparent white background */
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darken link color on hover */
+}
